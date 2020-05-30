@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+
+  <div class="header pt-3 pb-3 pt-md-4 pb-md-4">
+    <div class="container">
+      <div class="row d-flex justify-content-md-between">
+        <div class="col-3 d-md-none d-flex justify-content-start align-items-center">
+          <span class="material-icons">menu</span>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center justify-content-md-start align-items-center">
+          <h1 class="mb-0"><a href="#"><img src="./assets/images/logo.svg" alt="aloha"></a></h1>
+        </div>
+        <div class="col-3 col-md-5 col-lg-4 d-flex justify-content-end align-items-center">
+          <ul class="list-unstyled d-flex mb-0">
+            <li>
+              <a href="#" class="btn dropdown-toggle d-md-flex align-items-center d-none d-md-block p-0 border-0">
+                <span class="material-icons">language</span>
+              </a>
+            </li>
+            <li>
+              <p class="d-none d-md-block ml-5">Sign up</p>
+            </li>
+            <li>
+              <p class="ml-5">Login</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%- contents %>
+
+  <div class="footer pt-4 pb-4">
+    <div class="container">
+      <div class="row d-flex justify-content-between">
+        <div
+          class="col-12 col-lg-7 d-flex flex-wrap justify-content-center justify-content-md-between justify-content-lg-start">
+          <p class="d-flex order-2 order-md-0 fz14 minorColor">© 2020 ALOHA, Inc. All rights reserved.</p>
+          <div class="d-flex justify-content-between">
+            <a href="#">
+              <p class="fz14 minorColor">FAQs</p>
+            </a>
+            <a href="#">
+              <p class="ml-4 fz14 minorColor">Terms of use</p>
+            </a>
+            <a href="#">
+              <p class="ml-4 fz14 minorColor">Privacy policy</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 d-none d-lg-flex justify-content-lg-end">
+          <a href="#" class="btn dropdown-toggle d-md-flex align-items-center d-none d-md-block p-0 border-0">
+            <span class="material-icons mr-2">language</span>
+            <p class="fz14">English</p>
+          </a>
+          <a href="#" class="btn dropdown-toggle d-md-flex align-items-center d-none d-md-block p-0 border-0 ml-4">
+            <span class="material-icons mr-1">attach_money</span>
+            <p class="fz14">TWD</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
