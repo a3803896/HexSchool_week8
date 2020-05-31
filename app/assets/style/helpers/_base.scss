@@ -37,6 +37,24 @@ p {
     font-weight: bold;
 }
 
+.extra-bold {
+    font-weight: 800;
+}
+
+.md-extra-bold {
+    @include md-width {
+        font-weight: 800;
+    }
+}
+
+.lg-extra-bold {
+    @include lg-width {
+        font-weight: 800;
+    }
+}
+
+
+
 //font-size
 .fz14 {
     font-size: 14px;
@@ -77,8 +95,19 @@ p {
     }
 }
 
+//bgckground
+
+.mainBg {
+    background: #F1F0F8;
+}
+
 //others
 
 .object-fit-cover {
     object-fit: cover;
+}
+
+.z-3 {
+    position: relative;
+    z-index: 3;
 }

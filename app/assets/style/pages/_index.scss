@@ -17,3 +17,24 @@
 .carousel-caption {
     z-index: 1;
 }
+
+.serchBlock {
+
+    @include lg-width {
+        width: 26.6%;
+    }
+}
+
+.searchBarInner {
+    margin-top: -56px;
+
+    @include lg-width {
+        margin-top: -50px;
+    }
+
+    .btn-success {
+        @include lg-width {
+            width: 14.4%;
+        }
+    }
+}
