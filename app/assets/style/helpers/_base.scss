@@ -56,6 +56,10 @@ p {
 
 
 //font-size
+.fz12 {
+    font-size: 12px;
+}
+
 .fz14 {
     font-size: 14px;
 }
@@ -66,27 +70,66 @@ p {
     }
 }
 
-//line-height
+.md-h4 {
+    @include md-width {
+        font-size: 1.5rem !important;
+    }
+}
 
+.md-h4 {
+    @include md-width {
+        font-size: 1.5rem;
+    }
+}
+
+.md-h6 {
+    @include md-width {
+        font-size: 1rem;
+    }
+}
+
+.h7 {
+    font-size: 0.8rem;
+}
+
+//line-height
 .lh-3 {
+    line-height: 1rem;
+}
+
+.lh-5 {
     line-height: 3rem;
 }
 
-.lh-md-4 {
+.lh-md-6 {
     @include md-width {
         line-height: 4rem;
     }
 }
 
 //color
+$mainColor:#000000DE;
+$minorColor:#00000099;
+$lighterMinor:#00000061;
+$darkerWhite:#FFFFFF98;
+
 
 .mainColor {
-    color: #000000DE;
+    color: $mainColor;
 }
 
 .minorColor {
-    color: #00000099;
+    color: $minorColor;
 }
+
+.lighterMinor {
+    color: $lighterMinor;
+}
+
+.darkerWhite {
+    color: $darkerWhite;
+}
+
 
 //width
 .w-md-50 {
@@ -101,6 +144,36 @@ p {
     background: #F1F0F8;
 }
 
+//margin
+.ml-xl-6 {
+    @include xl-width {
+        margin-left: 4rem;
+    }
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mb-lg-72 {
+    @include lg-width {
+        margin-bottom: 72px;
+    }
+}
+
+//padding
+.pl-md-4 {
+    @include md-width {
+        padding-left: 1.5rem;
+    }
+}
+
+.pr-md-4 {
+    @include md-width {
+        padding-right: 1.5rem;
+    }
+}
+
 //others
 
 .object-fit-cover {
@@ -110,4 +183,39 @@ p {
 .z-3 {
     position: relative;
     z-index: 3;
+}
+
+sup {
+    top: -.6rem;
+}
+
+//swiper
+.swiper-container {
+    width: 100%;
+    overflow: visible;
+}
+
+.swiper-slide {
+    width: unset !important;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+//collapse
+.btn-link {
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+.bg-linear-gradient {
+    background: transparent linear-gradient(270deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
 }

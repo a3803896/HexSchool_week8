@@ -9,7 +9,7 @@ current: index
         <div class="carousel-item active ">
             <img src="./assets/images/3.jpg" class="mainCarousel d-block w-100 object-fit-cover" alt="...">
             <div class="carousel-caption bg-gray-opacity d-flex justify-content-center align-items-center">
-                <h2 class="raleway bold md-extra-bold w-75 w-md-50 lh-3 fz-md-3 lh-md-4">Discover your ideal hotel</h2>
+                <h2 class="raleway bold md-extra-bold w-75 w-md-50 lh-5 fz-md-3 lh-md-6">Discover your ideal hotel</h2>
             </div>
         </div>
     </div>
@@ -22,24 +22,323 @@ current: index
         <span class="sr-only">Next</span>
     </a>
 </div>
-<div class="searchBar openSans">
+<div class="searchBar openSans mb-5">
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-12 col-md-10 col-lg-12 col-xl-10">
-                <div class="searchBarInner d-flex flex-column flex-lg-row rounded mainBg p-4 z-3">
-                    <div class="serchBlock d-flex bg-white rounded p-3 mb-3 mb-lg-0 mr-lg-3">
-                        <span class="material-icons mr-3">room</span>
-                        <p class="minorColor">Destination</p>
+                <div class="searchBarInner d-flex flex-column flex-lg-row rounded-lg mainBg p-4 z-3">
+                    <div class="dropdown serchBlock bg-white rounded-sm mb-3 mb-lg-0 mr-lg-3">
+                        <div class="d-flex p-3" id="dropdownMenuButton" data-offset="0,3" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <span class="material-icons mr-3">room</span>
+                            <p class="minorColor">Destination</p>
+                        </div>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">還沒做</a>
+                            <a class="dropdown-item" href="#">還沒做</a>
+                            <a class="dropdown-item" href="#">還沒做</a>
+                        </div>
                     </div>
-                    <div class="serchBlock d-flex bg-white rounded p-3 mb-3 mb-lg-0 mr-lg-3">
-                        <span class="material-icons mr-3">date_range</span>
-                        <p class="minorColor">Check-in / Check-out</p>
+                    <div class="dropdown serchBlock bg-white rounded-sm mb-3 mb-lg-0 mr-lg-3">
+                        <div class="d-flex p-3" id="dropdownMenuButton" data-offset="0,3" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <span class="material-icons mr-3">date_range</span>
+                            <p class="minorColor">Check-in / Check-out</p>
+                        </div>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">還沒做</a>
+                            <a class="dropdown-item" href="#">還沒做</a>
+                            <a class="dropdown-item" href="#">還沒做</a>
+                        </div>
                     </div>
-                    <div class="serchBlock d-flex bg-white rounded p-3 mb-3 mb-lg-0 mr-lg-3">
-                        <span class="material-icons mr-3">person</span>
-                        <p class="minorColor">Guests</p>
+                    <div class="dropdown serchBlock bg-white rounded-sm mb-3 mb-lg-0 mr-lg-3">
+                        <div class="d-flex p-3" id="dropdownMenuButton" data-offset="0,3" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <span class="material-icons mr-3">person</span>
+                            <p class="minorColor">Guests</p>
+                        </div>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">還沒做</a>
+                            <a class="dropdown-item" href="#">還沒做</a>
+                            <a class="dropdown-item" href="#">還沒做</a>
+                        </div>
                     </div>
                     <div class="btn btn-success bold p-3">SEARCH</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="choiceSwiper overflow-hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h4 class="raleway bold mb-4">Top Choices</h4>
+                <ul class="nav raleway bold h5 md-h4 mb-4">
+                    <li class="nav-item nowPage pr-md-4 pl-md-4 pl-3 pr-3">
+                        <a class="nav-link active p-0 text-success" href="#">Bali<sup class="h7">128</sup></a>
+                    </li>
+                    <li class="nav-item border-bottom pr-md-4 pl-md-4 pl-3 pr-3">
+                        <a class="nav-link p-0 minorColor" href="#">Okinawa<sup class="h7">67</sup></a>
+                    </li>
+                    <li class="nav-item border-bottom pr-md-4 pl-md-4 pl-3 pr-3">
+                        <a class="nav-link p-0 minorColor" href="#">Taipei<sup class="h7">53</sup></a>
+                    </li>
+                </ul>
+
+                <!-- Swiper -->
+                <div class="swiper-container mb-5">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex-column align-items-start">
+                            <img src="./assets/images/24.jpg" alt="" class="swiperImg rounded-lg mb-2">
+                            <p class="openSans bold mb-2">Hotel Aqua</p>
+                            <div class="comment d-flex align-items-center mb-2">
+                                <span class="material-icons h5 mb-0">star</span>
+                                <span class="material-icons h5 mb-0">star</span>
+                                <span class="material-icons h5 mb-0">star</span>
+                                <span class="material-icons h5 mb-0">star</span>
+                                <span class="material-icons h5 mb-0 mr-1">star</span>
+                                <p class="fz14 minorColor">5.0<span class="fz12 lighterMinor">・2k reviews</span>
+                                </p>
+                            </div>
+                            <div class="price">
+                                <p class="fz14 minorColor">TWD 2,480<strike class="fz12 lighterMinor ml-2">TWD
+                                        3,980</strike>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex-column align-items-start">
+                            <img src="./assets/images/32.jpg" alt="" class="swiperImg rounded-lg mb-2">
+                            <p class="openSans bold mb-2">Mr. Kawasaki Inn</p>
+                            <div class="comment d-flex align-items-center mb-2">
+                                <span class="material-icons h5 mb-0">star</span>
+                                <span class="material-icons h5 mb-0">star</span>
+                                <span class="material-icons h5 mb-0">star</span>
+                                <span class="material-icons h5 mb-0 mr-1">star</span>
+                                <p class="fz14 minorColor">4.0<span class="fz12 lighterMinor">・500 reviews</span>
+                                </p>
+                            </div>
+                            <div class="price">
+                                <p class="fz14 minorColor">TWD 3,380</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex-column align-items-start">
+                            <img src="./assets/images/15.jpg" alt="" class="swiperImg rounded-lg mb-2">
+                            <p class="openSans bold mb-2">Weekly Paradise</p>
+                            <div class="comment d-flex align-items-center mb-2">
+                                <span class="material-icons h5 mb-0">star</span>
+                                <span class="material-icons h5 mb-0">star</span>
+                                <span class="material-icons h5 mb-0">star</span>
+                                <span class="material-icons h5 mb-0 mr-1">star</span>
+                                <p class="fz14 minorColor">4.0<span class="fz12 lighterMinor">・470 reviews</span>
+                                </p>
+                            </div>
+                            <div class="price">
+                                <p class="fz14 minorColor">TWD 4,780</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex-column align-items-start">
+                            <img src="./assets/images/6.jpg" alt="" class="swiperImg rounded-lg mb-2">
+                            <p class="openSans bold mb-2">Beast Hotel</p>
+                            <div class="comment d-flex align-items-center mb-2">
+                                <span class="material-icons h5 mb-0">star</span>
+                                <span class="material-icons h5 mb-0">star</span>
+                                <span class="material-icons h5 mb-0">star</span>
+                                <span class="material-icons h5 mb-0 mr-1">star</span>
+                                <p class="fz14 minorColor">4.0<span class="fz12 lighterMinor">・283 reviews</span>
+                                </p>
+                            </div>
+                            <div class="price">
+                                <p class="fz14 minorColor">TWD 1,980</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="destinations mb-5 mb-lg-72">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h4 class="mainColor raleway bold mb-4">Popular Destinations</h4>
+            </div>
+        </div>
+        <div class="row accordion" id="accordionExample">
+            <div class="col-12 mb-2 mb-md-4 col-md-6 col-lg-4">
+                <div class="card border-0">
+                    <div class="card-header rounded-lg border-0 p-0" id="headi1">
+                        <button class="btn btn-link btn-block bg-linear-gradient border-0 text-left p-3 pr-4"
+                            type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true"
+                            aria-controls="collapse1">
+                            <p class="darkerWhite fz12 openSans bold">JAPAN</p>
+                            <div class="card-tittle d-flex justify-content-between text-white h4 raleway bold mb-0">
+                                Osaka
+                                <span class="material-icons lh-3 ">expand_more</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
+                        <div class="card-body border border-top-0">
+                            <p>目前沒內容</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-2 mb-md-4 col-md-6 col-lg-4">
+                <div class="card border-0">
+                    <div class="card-header rounded-lg border-0 p-0" id="heading2">
+                        <button class="btn btn-link btn-block bg-linear-gradient border-0 text-left p-3 pr-4"
+                            type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true"
+                            aria-controls="collapse2">
+                            <p class="darkerWhite fz12 openSans bold">JAPAN</p>
+                            <div class="card-tittle d-flex justify-content-between text-white h4 raleway bold mb-0">
+                                Kyoto
+                                <span class="material-icons lh-3 ">expand_more</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
+                        <div class="card-body border border-top-0">
+                            <p>目前沒內容</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-2 mb-md-4 col-md-6 col-lg-4">
+                <div class="card border-0">
+                    <div class="card-header rounded-lg border-0 p-0" id="heading3">
+                        <button class="btn btn-link btn-block bg-linear-gradient border-0 text-left p-3 pr-4"
+                            type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true"
+                            aria-controls="collapse3">
+                            <p class="darkerWhite fz12 openSans bold">ICELAND</p>
+                            <div class="card-tittle d-flex justify-content-between text-white h4 raleway bold mb-0">
+                                Reykjavík
+                                <span class="material-icons lh-3 ">expand_more</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+                        <div class="card-body border border-top-0">
+                            <p>目前沒內容</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-2 mb-md-4 mb-lg-0 col-md-6 col-lg-4">
+                <div class="card border-0">
+                    <div class="card-header rounded-lg border-0 p-0" id="heading4">
+                        <button class="btn btn-link btn-block bg-linear-gradient border-0 text-left p-3 pr-4"
+                            type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true"
+                            aria-controls="collapse4">
+                            <p class="darkerWhite fz12 openSans bold">LONDON</p>
+                            <div class="card-tittle d-flex justify-content-between text-white h4 raleway bold mb-0">
+                                Paris
+                                <span class="material-icons lh-3 ">expand_more</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+                        <div class="card-body border border-top-0">
+                            <p>目前沒內容</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-2 mb-md-0 col-md-6 col-lg-4">
+                <div class="card border-0">
+                    <div class="card-header rounded-lg border-0 p-0" id="heading5">
+                        <button class="btn btn-link btn-block bg-linear-gradient border-0 text-left p-3 pr-4"
+                            type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true"
+                            aria-controls="collapse5">
+                            <p class="darkerWhite fz12 openSans bold">ITALY</p>
+                            <div class="card-tittle d-flex justify-content-between text-white h4 raleway bold mb-0">
+                                Roma
+                                <span class="material-icons lh-3 ">expand_more</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
+                        <div class="card-body border border-top-0">
+                            <p>目前沒內容</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-0">
+                    <div class="card-header rounded-lg border-0 p-0" id="heading6">
+                        <button class="btn btn-link btn-block bg-linear-gradient border-0 text-left p-3 pr-4"
+                            type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="true"
+                            aria-controls="collapse6">
+                            <p class="darkerWhite fz12 openSans bold">THAILAND</p>
+                            <div class="card-tittle d-flex justify-content-between text-white h4 raleway bold mb-0">
+                                Bangkok
+                                <span class="material-icons lh-3 ">expand_more</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
+                        <div class="card-body border border-top-0">
+                            <p>目前沒內容</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="inspirationSwiper overflow-hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="inspirationTittle d-flex justify-content-between mb-4">
+                    <h4 class="raleway bold">Get Inspiration</h4>
+                    <button class="btn btn-outline-success openSans fz14 bold">SEE MORE</button>
+                </div>
+                <!-- swiper -->
+                <div class="swiper-container mb-5">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex-column align-items-start">
+                            <img src="./assets/images/7.jpg" alt="" class="inspirationImg rounded-lg mb-3 mb-lg-4">
+                            <p class="raleway h5 md-h4 bold mb-2">The fifth most visited country</p>
+                            <p class="openSans minorColor fz12 md-h6">Italy is the fifth most visited country in the
+                                world,
+                                with a total of 52.3 million…</p>
+                        </div>
+                        <div class="swiper-slide flex-column align-items-start">
+                            <img src="./assets/images/18.jpg" alt="" class="inspirationImg rounded-lg mb-3 mb-lg-4">
+                            <p class="raleway h5 md-h4 bold mb-2">Visit Thailand for Bangkok</p>
+                            <p class="openSans minorColor fz12 md-h6">Asian tourists primarily visit Thailand for
+                                Bangkok and
+                                the historical, natural, and…</p>
+                        </div>
+                        <div class="swiper-slide flex-column align-items-start">
+                            <img src="./assets/images/16.jpg" alt="" class="inspirationImg rounded-lg mb-3 mb-lg-4">
+                            <p class="raleway h5 md-h4 bold mb-2">Lord of the Rings Tour</p>
+                            <p class="openSans minorColor fz12 md-h6">The national cuisine has been described as Pacific
+                                Rim,
+                                incorporating the…</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="subscribe mainBg pt-4 pb-4">
+    <div class="container">
+        <div class="row mb-3 mb-md-4 justify-content-center">
+            <div class="col-12 col-lg-8">
+                <h4 class="raleway bold text-center mb-0 fz-md-3">Subscribe for Exclusive Offer</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-6">
+                <div class="input-group justify-content-center">
+                    <input class="border-0 openSans" type="email" name="" id="" placeholder="Your email address">
+                    <input class="btn btn-success openSans bold border-0" type="submit" value="SUBSCRIBE">
                 </div>
             </div>
         </div>

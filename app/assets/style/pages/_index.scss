@@ -38,3 +38,112 @@
         }
     }
 }
+
+.choiceSwiper .nav-item {
+    @media (max-width:352px) {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
+.nowPage {
+    border-bottom: 2px solid #6C51E2;
+}
+
+.accordion .col-12:nth-child(1) .card .card-header {
+    background: url("../images/1.jpg")center no-repeat;
+    background-size: cover;
+}
+
+.accordion .col-12:nth-child(2) .card-header {
+    background: url("../images/8.jpg")center no-repeat;
+    background-size: cover;
+}
+
+.accordion .col-12:nth-child(3) .card-header {
+    background: url("../images/21.jpg")center no-repeat;
+    background-size: cover;
+}
+
+.accordion .col-12:nth-child(4) .card-header {
+    background: url("../images/2.jpg")center no-repeat;
+    background-size: cover;
+}
+
+.accordion .col-12:nth-child(5) .card-header {
+    background: url("../images/5.jpg")center no-repeat;
+    background-size: cover;
+}
+
+.accordion .col-12:nth-child(6) .card-header {
+    background: url("../images/17.jpg")center no-repeat;
+    background-size: cover;
+}
+
+.inspirationSwiper .swiper-slide {
+    width: 240px !important;
+
+    @include md-width {
+        width: 210px !important;
+    }
+
+    @include lg-width {
+        width: 350px !important;
+    }
+}
+
+
+.inspirationImg {
+    width: 240px;
+    height: 181px;
+    object-fit: cover;
+
+    @include md-width {
+        width: 210px;
+        height: 158px;
+    }
+
+    @include lg-width {
+        width: 350px;
+        height: 263px;
+    }
+}
+
+.subscribe {
+    @include md-width {
+        padding-top: 92px !important;
+        padding-bottom: 92px !important;
+    }
+
+    h4 {
+        @include md-width {
+            font-weight: 900;
+        }
+    }
+}
+
+.input-group {
+    input {
+        &:first-child {
+            border-radius: 4px 0px 0px 4px;
+            padding: 16px 0 18px 21px;
+
+            @include md-width {
+                width: 73.6%;
+            }
+
+            @include lg-width {
+                width: 72.1%;
+            }
+        }
+
+        &:last-child {
+            border-radius: 0px 4px 4px 0px;
+            padding: 17px 16px;
+
+            @include md-width {
+                padding: 17px 32px;
+            }
+        }
+    }
+}
