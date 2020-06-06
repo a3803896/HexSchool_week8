@@ -64,6 +64,18 @@ p {
     font-size: 14px;
 }
 
+.fz-md-14 {
+    @include md-width {
+        font-size: 14px;
+    }
+}
+
+.fz-lg-14 {
+    @include lg-width {
+        font-size: 14px;
+    }
+}
+
 .fz-md-3 {
     @include md-width {
         font-size: 3rem !important;
@@ -76,14 +88,14 @@ p {
     }
 }
 
-.md-h4 {
+.md-h6 {
     @include md-width {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
 
-.md-h6 {
-    @include md-width {
+.lg-h6 {
+    @include lg-width {
         font-size: 1rem;
     }
 }
@@ -112,7 +124,7 @@ $mainColor:#000000DE;
 $minorColor:#00000099;
 $lighterMinor:#00000061;
 $darkerWhite:#FFFFFF98;
-
+$mainbg:#F1F0F8;
 
 .mainColor {
     color: $mainColor;
@@ -141,7 +153,7 @@ $darkerWhite:#FFFFFF98;
 //bgckground
 
 .mainBg {
-    background: #F1F0F8;
+    background: $mainbg;
 }
 
 //margin
@@ -153,6 +165,10 @@ $darkerWhite:#FFFFFF98;
 
 .mr-30 {
     margin-right: 30px;
+}
+
+.mr-60 {
+    margin-right: 60px;
 }
 
 .mb-lg-72 {
@@ -174,19 +190,14 @@ $darkerWhite:#FFFFFF98;
     }
 }
 
-//others
+.p-0-onlyphone {
+    padding-left: 0;
+    padding-right: 0;
 
-.object-fit-cover {
-    object-fit: cover;
-}
-
-.z-3 {
-    position: relative;
-    z-index: 3;
-}
-
-sup {
-    top: -.6rem;
+    @include sm-width {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 //swiper
@@ -218,4 +229,28 @@ sup {
 
 .bg-linear-gradient {
     background: transparent linear-gradient(270deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+//others
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.z-3 {
+    position: relative;
+    z-index: 3;
+}
+
+sup {
+    top: -.6rem;
+    font-size: 60%;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.border-right-white {
+    border-right: 1px solid #fff;
 }

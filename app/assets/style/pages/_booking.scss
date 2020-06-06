@@ -1,0 +1,58 @@
+.searchBar-booking {
+    .dropdown {
+        width: 33.33%;
+        height: 33px;
+
+        @include md-width {
+            width: 26.08%;
+            height: 100%;
+            background: #ffffff;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        @include lg-width {
+            width: 28.15%;
+        }
+    }
+
+    .searchBtn {
+        height: 100%;
+        padding: 16px 32px;
+    }
+}
+
+.sidebar {
+    h2 {
+        text-align: center;
+
+        @include md-width {
+            text-align: left;
+        }
+    }
+
+    button {
+        height: 49px;
+    }
+}
+
+.stars .material-icons {
+    line-height: 1.4 !important;
+}
+
+.bg-lg-mainBg {
+    @include lg-width {
+        background: $mainbg !important;
+    }
+}
+
+.min,
+.max {
+    @include lg-width {
+        width: 141px;
+    }
+}
+
+.lh-54 {
+    line-height: 54px;
+}

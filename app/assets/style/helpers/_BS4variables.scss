@@ -64,7 +64,7 @@ $success: #6C51E2 !default; //修改過
 $info: $cyan !default;
 $warning: $yellow !default;
 $danger: $red !default;
-$light: $gray-100 !default;
+$light: rgba(255, 255, 255, 0) !default; //修改過
 $dark: $gray-800 !default;
 
 $theme-colors: () !default;
