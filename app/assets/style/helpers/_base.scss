@@ -56,12 +56,20 @@ p {
 
 
 //font-size
+.fz10 {
+    font-size: 10px;
+}
+
 .fz12 {
     font-size: 12px;
 }
 
 .fz14 {
     font-size: 14px;
+}
+
+.fz18 {
+    font-size: 18px;
 }
 
 .fz-md-14 {
@@ -85,6 +93,24 @@ p {
 .md-h4 {
     @include md-width {
         font-size: 1.5rem !important;
+    }
+}
+
+.lg-h4 {
+    @include lg-width {
+        font-size: 1.5rem;
+    }
+}
+
+.xl-h4 {
+    @include xl-width {
+        font-size: 1.5rem;
+    }
+}
+
+.md-h5 {
+    @include md-width {
+        font-size: 1.25rem !important;
     }
 }
 

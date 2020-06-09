@@ -1,4 +1,12 @@
 .searchBar-booking {
+    position: sticky;
+    z-index: 122;
+    top: 55.98px;
+
+    @include md-width {
+        top: 71.97px;
+    }
+
     .dropdown {
         width: 33.33%;
         height: 33px;
@@ -55,4 +63,74 @@
 
 .lh-54 {
     line-height: 54px;
+}
+
+.rooms {
+    padding-top: 8px;
+
+    @include md-width {
+        padding-top: 31px;
+    }
+}
+
+.sort {
+    width: max-content;
+}
+
+.rooms .card {
+    border: none;
+    border-bottom: 4px solid $mainbg;
+
+    &:last-child {
+        border: none;
+        padding-bottom: 0;
+    }
+
+    &:nth-child(2) {
+        padding-top: 0;
+    }
+
+    @include md-width {
+        border-bottom: 1px solid $mainbg;
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+
+    @include lg-width {
+        height: 175px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        box-sizing: content-box;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+
+        @include md-width {
+            border-radius: 8px 0px 0px 8px;
+        }
+
+        @include lg-width {
+            width: 255px;
+            height: 175px;
+        }
+    }
+}
+
+.points {
+    line-height: 18px;
+
+    @include md-width {
+        line-height: unset;
+    }
+
+    @include lg-width {
+        line-height: 21px;
+    }
+}
+
+.commentStars {
+    line-height: 15px;
 }

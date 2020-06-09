@@ -8,9 +8,8 @@ current: booking
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-12 p-0-onlyphone">
-
-                <div
-                    class="searchBar-booking-inner d-flex align-items-center rounded-lg pt-2 pb-2 pt-md-3 pb-md-3 pt-lg-4 pb-lg-4">
+                <div class="searchBar-booking-inner d-flex align-items-center rounded-lg pt-2 pb-2 pt-md-3
+                    pb-md-3 pt-lg-4 pb-lg-4">
 
                     <div class="dropdown d-flex justify-content-center justify-content-md-start align-content-center
                         rounded-sm mr-md-2 mr-lg-3 pl-md-2 pl-lg-3 border-right-white">
@@ -86,156 +85,708 @@ current: booking
     </div>
 </div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-12 col-md-4">
-            <div class="sidebar pt-3">
-                <h2 class="raleway mb-2 mb-md-4  bold">Bangkok<sup class="text-success">3,240</sup></h2>
-                <div class="d-flex d-md-none">
-                    <button class="btn btn-light d-flex justify-content-center align-items-center p-0 w-50">
-                        <span class="material-icons mr-2"> filter_list </span>
-                        <p class="openSans bold fz14">FILTER</p>
-                    </button>
-                    <button class="btn btn-light d-flex justify-content-center align-items-center p-0 w-50">
-                        <span class="material-icons mr-2"> sort </span>
-                        <p class="openSans bold fz14">SORT</p>
-                    </button>
-                </div>
-                <div class="filterOptions mainBg openSans p-4 d-none d-md-block">
-                    <form class="mb-5" action="">
-                        <p class="bold mb-3">Deals</p>
-                        <div class="form-group form-check mb-2 d-flex">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Free
-                                cancellation</label>
-                        </div>
-                        <div class="form-group form-check mb-2 d-flex">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">No
-                                prepayment</label>
-                        </div>
-                        <div class="form-group form-check mb-2 d-flex">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Special
-                                offers</label>
-                        </div>
-                    </form>
-
-                    <form class="mb-5" action="">
-                        <p class="bold mb-3">Popular filter</p>
-                        <div class="form-group form-check mb-2 d-flex">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Breakfast
-                                included</label>
-                        </div>
-                        <div class="form-group form-check mb-2 d-flex">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Free Wi-Fi</label>
-                        </div>
-                        <div class="form-group form-check mb-2 d-flex">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Swimming
-                                pool</label>
-                        </div>
-                    </form>
-
-                    <form class="mb-5" action="">
-                        <p class="bold mb-3">Budget</p>
-                        <input class="mb-3 w-100" value="" type="range">
-                        <div
-                            class="bg-white bg-lg-mainBg d-flex justify-content-between justify-content-lg-center p-2 p-lg-0">
-                            <div class="min bg-white p-lg-2 mr-2">
-                                <p class="fz12 mainColor bold">MIN PRICE</p>
-                                <p class="fz12 fz-lg-14 minorColor">TWD 800</p>
+<div class="mainContent overflow-hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="sidebar pt-3">
+                    <h2 class="raleway mb-2 mb-md-4  bold">Bangkok<sup class="text-success">3,240</sup></h2>
+                    <div class="d-flex d-md-none">
+                        <button class="btn btn-light d-flex justify-content-center align-items-center p-0 w-50">
+                            <span class="material-icons mr-2"> filter_list </span>
+                            <p class="openSans bold fz14">FILTER</p>
+                        </button>
+                        <button class="btn btn-light d-flex justify-content-center align-items-center p-0 w-50">
+                            <span class="material-icons mr-2"> sort </span>
+                            <p class="openSans bold fz14">SORT</p>
+                        </button>
+                    </div>
+                    <div class="filterOptions mainBg openSans p-4 d-none d-md-block">
+                        <form class="mb-5" action="">
+                            <p class="bold mb-3">Deals</p>
+                            <div class="form-group form-check mb-2 d-flex">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Free
+                                    cancellation</label>
                             </div>
-                            <p class="d-none d-lg-block mr-2 fz14 lh-54">-</p>
-
-                            <div class="max bg-white p-lg-2">
-                                <P class="fz12 mainColor bold">MAX PRICE</P>
-                                <P class="fz12 fz-lg-14 minorColor">TWD 4,000+</P>
+                            <div class="form-group form-check mb-2 d-flex">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">No
+                                    prepayment</label>
                             </div>
-                        </div>
-                    </form>
+                            <div class="form-group form-check mb-2 d-flex">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Special
+                                    offers</label>
+                            </div>
+                        </form>
 
-                    <form class="mb-5" action="">
-                        <p class="bold mb-3">Rating</p>
-                        <div class="form-group form-check mb-2">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="stars form-check-label d-flex align-items-center" for="exampleCheck1">
-                                <span class="material-icons h6 mb-0 bold">star</span>
-                                <span class="material-icons h6 mb-0 bold">star</span>
-                                <span class="material-icons h6 mb-0 bold">star</span>
-                                <span class="material-icons h6 mb-0 bold">star</span>
-                                <span class="material-icons h6 mb-0 bold mr-2">star</span>
-                                <p class="minorColor fz14 lg-h6">5.0</p>
-                            </label>
-                        </div>
-                        <div class="form-group form-check mb-2">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="stars form-check-label d-flex align-items-center" for="exampleCheck1">
-                                <span class="material-icons h6 mb-0 bold">star</span>
-                                <span class="material-icons h6 mb-0 bold">star</span>
-                                <span class="material-icons h6 mb-0 bold">star</span>
-                                <span class="material-icons h6 mb-0 bold mr-2">star</span>
-                                <p class="minorColor fz14 lg-h6">4.0</p>
-                            </label>
-                        </div>
-                        <div class="form-group form-check mb-2">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="stars form-check-label d-flex align-items-center" for="exampleCheck1">
-                                <span class="material-icons h6 mb-0 bold">star</span>
-                                <span class="material-icons h6 mb-0 bold">star</span>
-                                <span class="material-icons h6 mb-0 bold mr-2">star</span>
-                                <p class="minorColor fz14 lg-h6">3.0</p>
-                            </label>
-                        </div>
-                        <div class="form-group form-check mb-2">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="stars form-check-label d-flex align-items-center" for="exampleCheck1">
-                                <span class="material-icons h6 mb-0 bold">star</span>
-                                <span class="material-icons h6 mb-0 bold mr-2">star</span>
-                                <p class="minorColor fz14 lg-h6">2.0</p>
-                            </label>
-                        </div>
-                        <div class="form-group form-check mb-2">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="stars form-check-label d-flex align-items-center" for="exampleCheck1">
-                                <span class="material-icons h6 mb-0 bold mr-2">star</span>
-                                <p class="minorColor fz14 lg-h6">1.0</p>
-                            </label>
-                        </div>
-                        <div class="form-group form-check mb-2">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="stars form-check-label d-flex align-items-center" for="exampleCheck1">
-                                <p class="minorColor fz14 lg-h6">Unrated</p>
-                            </label>
-                        </div>
-                    </form>
+                        <form class="mb-5" action="">
+                            <p class="bold mb-3">Popular filter</p>
+                            <div class="form-group form-check mb-2 d-flex">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Breakfast
+                                    included</label>
+                            </div>
+                            <div class="form-group form-check mb-2 d-flex">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Free
+                                    Wi-Fi</label>
+                            </div>
+                            <div class="form-group form-check mb-2 d-flex">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Swimming
+                                    pool</label>
+                            </div>
+                        </form>
 
-                    <form class="" action="">
-                        <p class="bold mb-3">Stay Type</p>
-                        <div class="form-group form-check mb-2 d-flex">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Hotel</label>
-                        </div>
-                        <div class="form-group form-check mb-2 d-flex">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Apartment</label>
-                        </div>
-                        <div class="form-group form-check mb-2 d-flex">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Unique</label>
-                        </div>
-                        <div class="form-group form-check mb-0 d-flex">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Hostel</label>
-                        </div>
-                    </form>
+                        <form class="mb-5" action="">
+                            <p class="bold mb-3">Budget</p>
+                            <input class="mb-3 w-100" value="" type="range">
+                            <div
+                                class="bg-white bg-lg-mainBg d-flex justify-content-between justify-content-lg-center p-2 p-lg-0">
+                                <div class="min bg-white p-lg-2 mr-2">
+                                    <p class="fz12 mainColor bold">MIN PRICE</p>
+                                    <p class="fz12 fz-lg-14 minorColor">TWD 800</p>
+                                </div>
+                                <p class="d-none d-lg-block mr-2 fz14 lh-54">-</p>
+
+                                <div class="max bg-white p-lg-2">
+                                    <P class="fz12 mainColor bold">MAX PRICE</P>
+                                    <P class="fz12 fz-lg-14 minorColor">TWD 4,000+</P>
+                                </div>
+                            </div>
+                        </form>
+
+                        <form class="mb-5" action="">
+                            <p class="bold mb-3">Rating</p>
+                            <div class="form-group form-check mb-2">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="stars form-check-label d-flex align-items-center" for="exampleCheck1">
+                                    <span class="material-icons h6 mb-0 bold">star</span>
+                                    <span class="material-icons h6 mb-0 bold">star</span>
+                                    <span class="material-icons h6 mb-0 bold">star</span>
+                                    <span class="material-icons h6 mb-0 bold">star</span>
+                                    <span class="material-icons h6 mb-0 bold mr-2">star</span>
+                                    <p class="minorColor fz14 lg-h6">5.0</p>
+                                </label>
+                            </div>
+                            <div class="form-group form-check mb-2">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="stars form-check-label d-flex align-items-center" for="exampleCheck1">
+                                    <span class="material-icons h6 mb-0 bold">star</span>
+                                    <span class="material-icons h6 mb-0 bold">star</span>
+                                    <span class="material-icons h6 mb-0 bold">star</span>
+                                    <span class="material-icons h6 mb-0 bold mr-2">star</span>
+                                    <p class="minorColor fz14 lg-h6">4.0</p>
+                                </label>
+                            </div>
+                            <div class="form-group form-check mb-2">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="stars form-check-label d-flex align-items-center" for="exampleCheck1">
+                                    <span class="material-icons h6 mb-0 bold">star</span>
+                                    <span class="material-icons h6 mb-0 bold">star</span>
+                                    <span class="material-icons h6 mb-0 bold mr-2">star</span>
+                                    <p class="minorColor fz14 lg-h6">3.0</p>
+                                </label>
+                            </div>
+                            <div class="form-group form-check mb-2">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="stars form-check-label d-flex align-items-center" for="exampleCheck1">
+                                    <span class="material-icons h6 mb-0 bold">star</span>
+                                    <span class="material-icons h6 mb-0 bold mr-2">star</span>
+                                    <p class="minorColor fz14 lg-h6">2.0</p>
+                                </label>
+                            </div>
+                            <div class="form-group form-check mb-2">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="stars form-check-label d-flex align-items-center" for="exampleCheck1">
+                                    <span class="material-icons h6 mb-0 bold mr-2">star</span>
+                                    <p class="minorColor fz14 lg-h6">1.0</p>
+                                </label>
+                            </div>
+                            <div class="form-group form-check mb-2">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="stars form-check-label d-flex align-items-center" for="exampleCheck1">
+                                    <p class="minorColor fz14 lg-h6">Unrated</p>
+                                </label>
+                            </div>
+                        </form>
+
+                        <form class="" action="">
+                            <p class="bold mb-3">Stay Type</p>
+                            <div class="form-group form-check mb-2 d-flex">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Hotel</label>
+                            </div>
+                            <div class="form-group form-check mb-2 d-flex">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label minorColor fz14 lg-h6"
+                                    for="exampleCheck1">Apartment</label>
+                            </div>
+                            <div class="form-group form-check mb-2 d-flex">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Unique</label>
+                            </div>
+                            <div class="form-group form-check mb-0 d-flex">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label minorColor fz14 lg-h6" for="exampleCheck1">Hostel</label>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-12 col-md-8">
+            <div class="col-12 col-md-8 p-0-onlyphone">
+                <div class="rooms">
+                    <ul class="sort list-unstyled openSans bold mb-4 d-none d-md-flex">
+                        <li><a href="#" class="text-success mr-4">Recommended</a></li>
+                        <li><a href="#" class="mainColor mr-4">Lowest Price</a></li>
+                        <li><a href="#" class="mainColor mr-4">Best value</a></li>
+                        <li><a href="#" class="mainColor">Distance to City Center</a></li>
+                    </ul>
+                    <div class="card flex-row openSans">
+                        <img src="./assets/images/31.jpg" class="card-img-top" alt="...">
+                        <div
+                            class="card-body pl-2 pr-2 pt-1 pb-1 p-md-2 p-xl-3 d-flex flex-column flex-md-row justify-content-between">
+                            <div class="d-xl-flex flex-xl-column justify-content-xl-between">
+                                <div class="">
+                                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                                        <div class="roomTittle">
+                                            <p class="text-success fz12">Rachada, Bangkok <span
+                                                    class="fz12 minorColor d-none d-xl-inline">・2 km from center</span>
+                                            </p>
+                                            <p class="mainColor bold mb-lg-3 xl-h4">Rachada Hotel</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="commentStars d-md-none">
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span
+                                                    class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 bold">star</span>
+                                            </div>
+                                            <p class="points minorColor fz12 text-right d-md-none">4.0 (283)</p>
+                                        </div>
+                                    </div>
+                                    <p class="minorColor fz14 bold">Deluxe Double Room</p>
+                                    <p class="minorColor fz12 mb-md-2 mb-lg-2">2 guests・1 bed (Queen size)</p>
+                                </div>
+                                <div class="d-none d-md-flex flex-md-column flex-xl-row align-items-start">
+                                    <p
+                                        class="fz10 mainBg minorColor d-inline rounded-lg pl-2 pr-2 pt-xl-1 pb-xl-1 mb-md-1 mr-xl-1">
+                                        Free cancellation
+                                    </p>
+                                    <p class="fz10 mainBg minorColor d-inline rounded-lg pl-2 pr-2 pt-xl-1 pb-xl-1">No
+                                        prepayment
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-end justify-content-md-between">
+                                <div class="d-flex flex-md-column flex-xl-row">
+                                    <div class="d-none d-md-block">
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span
+                                            class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 mr-xl-1 bold">star</span>
+                                    </div>
+                                    <p class="points minorColor fz12 text-right d-none d-md-block">4.0 (283)</p>
+                                </div>
+                                <div class="">
+                                    <p class="d-none d-md-block text-right opensans fz12 minorColor">per night</p>
+                                    <p class="text-right raleway bold xl-h4">TWD 1,980</p>
+                                </div>
+                            </div>
 
+                        </div>
+                    </div>
+                    <div class="card flex-row openSans">
+                        <img src="./assets/images/19.jpg" class="card-img-top" alt="...">
+                        <div
+                            class="card-body pl-2 pr-2 pt-1 pb-1 p-md-2 p-xl-3 d-flex flex-column flex-md-row justify-content-between">
+                            <div class="d-xl-flex flex-xl-column justify-content-xl-between">
+                                <div class="">
+                                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                                        <div class="roomTittle">
+                                            <p class="text-success fz12">Phaya Thai, Bangkok<span
+                                                    class="fz12 minorColor d-none d-xl-inline">・2.9 km from
+                                                    center</span>
+                                            </p>
+                                            <p class="mainColor bold mb-lg-3 xl-h4">Forever Place</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="commentStars d-md-none">
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span
+                                                    class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 bold">star</span>
+                                            </div>
+                                            <p class="points minorColor fz12 text-right d-md-none">5.0 (121)</p>
+                                        </div>
+                                    </div>
+                                    <p class="minorColor fz14 bold">Standard Double Room</p>
+                                    <p class="minorColor fz12 mb-md-2 mb-lg-2">2 guests・1 bed (Queen size)</p>
+                                </div>
+                                <div class="d-none d-md-flex flex-md-column flex-xl-row align-items-start">
+                                    <p class="fz10 mainBg minorColor d-inline rounded-lg pl-2 pr-2 pt-xl-1 pb-xl-1">
+                                        Free cancellation
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-end justify-content-md-between">
+                                <div class="d-flex flex-md-column flex-xl-row">
+                                    <div class="d-none d-md-block">
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span
+                                            class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 mr-xl-1 bold">star</span>
+                                    </div>
+                                    <p class="points minorColor fz12 text-right d-none d-md-block">5.0 (121)</p>
+                                </div>
+                                <div class="">
+                                    <p class="d-none d-md-block text-right opensans fz12 minorColor">per night</p>
+                                    <strike class="d-block text-right raleway minorColor fz12 fz-md-14 lg-h6">TWD
+                                        1,980</strike>
+                                    <p class="text-right raleway bold xl-h4">TWD <span class="text-success">
+                                            1,680</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card flex-row openSans">
+                        <img src="./assets/images/10.jpg" class="card-img-top" alt="...">
+                        <div
+                            class="card-body pl-2 pr-2 pt-1 pb-1 p-md-2 p-xl-3 d-flex flex-column flex-md-row justify-content-between">
+                            <div class="d-xl-flex flex-xl-column justify-content-xl-between">
+                                <div class="">
+                                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                                        <div class="roomTittle">
+                                            <p class="text-success fz12">Bangkapi, Bangkok<span
+                                                    class="fz12 minorColor d-none d-xl-inline">・14 km from center</span>
+                                            </p>
+                                            <p class="mainColor bold mb-lg-3 xl-h4">LUV Hotel</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="commentStars d-md-none">
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span
+                                                    class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 bold">star</span>
+                                            </div>
+                                            <p class="points minorColor fz12 text-right d-md-none">4.0 (325)</p>
+                                        </div>
+                                    </div>
+                                    <p class="minorColor fz14 bold">Standard Double Room</p>
+                                    <p class="minorColor fz12 mb-md-2 mb-lg-2">2 guests・1 bed (Queen size)</p>
+                                </div>
+                                <div class="d-none d-md-flex flex-md-column flex-xl-row align-items-start">
+                                    <p class="fz10 mainBg minorColor d-inline rounded-lg pl-2 pr-2 pt-xl-1 pb-xl-1">
+                                        Free cancellation
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-end justify-content-md-between">
+                                <div class="d-flex flex-md-column flex-xl-row">
+                                    <div class="d-none d-md-block">
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span
+                                            class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 mr-xl-1 bold">star</span>
+                                    </div>
+                                    <p class="points minorColor fz12 text-right d-none d-md-block">4.0 (325)</p>
+                                </div>
+                                <div class="">
+                                    <p class="d-none d-md-block text-right opensans fz12 minorColor">per night</p>
+                                    <p class="text-right raleway bold xl-h4">TWD 2,460</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="card flex-row openSans">
+                        <img src="./assets/images/9.jpg" class="card-img-top" alt="...">
+                        <div
+                            class="card-body pl-2 pr-2 pt-1 pb-1 p-md-2 p-xl-3 d-flex flex-column flex-md-row justify-content-between">
+                            <div class="d-xl-flex flex-xl-column justify-content-xl-between">
+                                <div class="">
+                                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                                        <div class="roomTittle">
+                                            <p class="text-success fz12">Chatuchack, Bangkok<span
+                                                    class="fz12 minorColor d-none d-xl-inline">・12 km from center</span>
+                                            </p>
+                                            <p class="mainColor bold mb-lg-3 xl-h4">WOW Life Hotel</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="commentStars d-md-none">
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span
+                                                    class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 bold">star</span>
+                                            </div>
+                                            <p class="points minorColor fz12 text-right d-md-none">4.0 (204)</p>
+                                        </div>
+                                    </div>
+                                    <p class="minorColor fz14 bold">Standard Double Room</p>
+                                    <p class="minorColor fz12 mb-md-2 mb-lg-2">2 guests・1 bed (Queen size)</p>
+                                </div>
+                                <div class="d-none d-md-flex flex-md-column flex-xl-row align-items-start">
+                                    <p class="fz10 mainBg minorColor d-inline rounded-lg pl-2 pr-2 pt-xl-1 pb-xl-1">
+                                        No prepayment
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-end justify-content-md-between">
+                                <div class="d-flex flex-md-column flex-xl-row">
+                                    <div class="d-none d-md-block">
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span
+                                            class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 mr-xl-1 bold">star</span>
+                                    </div>
+                                    <p class="points minorColor fz12 text-right d-none d-md-block">4.0 (204)</p>
+                                </div>
+                                <div class="">
+                                    <p class="d-none d-md-block text-right opensans fz12 minorColor">per night</p>
+                                    <strike class="d-block text-right raleway minorColor fz14 lg-h6">TWD
+                                        2,880</strike>
+                                    <p class="text-right raleway bold xl-h4">TWD <span class="text-success">
+                                            2,240</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card flex-row openSans">
+                        <img src="./assets/images/13.jpg" class="card-img-top" alt="...">
+                        <div
+                            class="card-body pl-2 pr-2 pt-1 pb-1 p-md-2 p-xl-3 d-flex flex-column flex-md-row justify-content-between">
+                            <div class="d-xl-flex flex-xl-column justify-content-xl-between">
+                                <div class="">
+                                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                                        <div class="roomTittle">
+                                            <p class="text-success fz12">Chatuchack, Bangkok<span
+                                                    class="fz12 minorColor d-none d-xl-inline">・8 km from center</span>
+                                            </p>
+                                            <p class="mainColor bold mb-lg-3 xl-h4">Celebrity Palace</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="commentStars d-md-none">
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span
+                                                    class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 bold">star</span>
+                                            </div>
+                                            <p class="points minorColor fz12 text-right d-md-none">5.0 (189)</p>
+                                        </div>
+                                    </div>
+                                    <p class="minorColor fz14 bold">Standard Double Room</p>
+                                    <p class="minorColor fz12 mb-md-2 mb-lg-2">2 guests・1 bed (Queen size)</p>
+                                </div>
+                                <div class="d-none d-md-flex flex-md-column flex-xl-row align-items-start">
+                                    <p class="fz10 mainBg minorColor d-inline rounded-lg pl-2 pr-2 pt-xl-1 pb-xl-1">
+                                        No prepayment
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-end justify-content-md-between">
+                                <div class="d-flex flex-md-column flex-xl-row">
+                                    <div class="d-none d-md-block">
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span
+                                            class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 mr-xl-1 bold">star</span>
+                                    </div>
+                                    <p class="points minorColor fz12 text-right d-none d-md-block">5.0 (189)</p>
+                                </div>
+                                <div class="">
+                                    <p class="d-none d-md-block text-right opensans fz12 minorColor">per night</p>
+                                    <strike class="d-block text-right raleway minorColor fz14 lg-h6">TWD 2,120</strike>
+                                    <p class="text-right raleway bold xl-h4">TWD <span class="text-success">
+                                            1,890</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card flex-row openSans">
+                        <img src="./assets/images/14.jpg" class="card-img-top" alt="...">
+                        <div
+                            class="card-body pl-2 pr-2 pt-1 pb-1 p-md-2 p-xl-3 d-flex flex-column flex-md-row justify-content-between">
+                            <div class="d-xl-flex flex-xl-column justify-content-xl-between">
+                                <div class="">
+                                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                                        <div class="roomTittle">
+                                            <p class="text-success fz12">Rang Rak, Bangkok<span
+                                                    class="fz12 minorColor d-none d-xl-inline">・4.4 km from
+                                                    center</span>
+                                            </p>
+                                            <p class="mainColor bold mb-lg-3 xl-h4">RR Space</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="commentStars d-md-none">
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span
+                                                    class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 bold">star</span>
+                                            </div>
+                                            <p class="points minorColor fz12 text-right d-md-none">4.0 (112)</p>
+                                        </div>
+                                    </div>
+                                    <p class="minorColor fz14 bold">Deluxe Double Room</p>
+                                    <p class="minorColor fz12 mb-md-2 mb-lg-2">2 guests・1 bed (Queen size)</p>
+                                </div>
+                                <div class="d-none d-md-flex flex-md-column flex-xl-row align-items-start">
+                                    <p class="fz10 mainBg minorColor d-inline rounded-lg pl-2 pr-2 pt-xl-1 pb-xl-1">
+                                        Free cancellation
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-end justify-content-md-between">
+                                <div class="d-flex flex-md-column flex-xl-row">
+                                    <div class="d-none d-md-block">
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span
+                                            class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 mr-xl-1 bold">star</span>
+                                    </div>
+                                    <p class="points minorColor fz12 text-right d-none d-md-block">4.0 (112)</p>
+                                </div>
+                                <div class="">
+                                    <p class="d-none d-md-block text-right opensans fz12 minorColor">per night</p>
+                                    <p class="text-right raleway bold xl-h4">TWD 2,090</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card flex-row openSans">
+                        <img src="./assets/images/12.jpg" class="card-img-top" alt="...">
+                        <div
+                            class="card-body pl-2 pr-2 pt-1 pb-1 p-md-2 p-xl-3 d-flex flex-column flex-md-row justify-content-between">
+                            <div class="d-xl-flex flex-xl-column justify-content-xl-between">
+                                <div class="">
+                                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                                        <div class="roomTittle">
+                                            <p class="text-success fz12">Watana, Bangkok<span
+                                                    class="fz12 minorColor d-none d-xl-inline">・6 km from center</span>
+                                            </p>
+                                            <p class="mainColor bold mb-lg-3 xl-h4">Bangkok Hostel</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="commentStars d-md-none">
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span
+                                                    class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 bold">star</span>
+                                            </div>
+                                            <p class="points minorColor fz12 text-right d-md-none">5.0 (102)</p>
+                                        </div>
+                                    </div>
+                                    <p class="minorColor fz14 bold">Twin Room</p>
+                                    <p class="minorColor fz12 mb-md-2 mb-lg-2">2 guests・2 beds (2 twins)</p>
+                                </div>
+                                <div class="d-none d-md-flex flex-md-column flex-xl-row align-items-start">
+                                    <p
+                                        class="fz10 mainBg minorColor d-inline rounded-lg pl-2 pr-2 pt-xl-1 pb-xl-1 mb-md-1 mr-xl-1">
+                                        Free cancellation
+                                    </p>
+                                    <p class="fz10 mainBg minorColor d-inline rounded-lg pl-2 pr-2 pt-xl-1 pb-xl-1">No
+                                        prepayment
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-end justify-content-md-between">
+                                <div class="d-flex flex-md-column flex-xl-row">
+                                    <div class="d-none d-md-block">
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span
+                                            class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 mr-xl-1 bold">star</span>
+                                    </div>
+                                    <p class="points minorColor fz12 text-right d-none d-md-block">5.0 (102)</p>
+                                </div>
+                                <div class="">
+                                    <p class="d-none d-md-block text-right opensans fz12 minorColor">per night</p>
+                                    <p class="text-right raleway bold xl-h4">TWD 880</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card flex-row openSans">
+                        <img src="./assets/images/4.jpg" class="card-img-top" alt="...">
+                        <div
+                            class="card-body pl-2 pr-2 pt-1 pb-1 p-md-2 p-xl-3 d-flex flex-column flex-md-row justify-content-between">
+                            <div class="d-xl-flex flex-xl-column justify-content-xl-between">
+                                <div class="">
+                                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                                        <div class="roomTittle">
+                                            <p class="text-success fz12">Watana, Bangkok<span
+                                                    class="fz12 minorColor d-none d-xl-inline">・6 km from center</span>
+                                            </p>
+                                            <p class="mainColor bold mb-lg-3 xl-h4">Watana First Hostel</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="commentStars d-md-none">
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span
+                                                    class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 bold">star</span>
+                                            </div>
+                                            <p class="points minorColor fz12 text-right d-md-none">3.0 (608)</p>
+                                        </div>
+                                    </div>
+                                    <p class="minorColor fz14 bold">Twin Room</p>
+                                    <p class="minorColor fz12 mb-md-2 mb-lg-2">2 guests・2 beds (2 twins)</p>
+                                </div>
+                                <div class="d-none d-md-flex flex-md-column flex-xl-row align-items-start">
+                                    <p class="fz10 mainBg minorColor d-inline rounded-lg pl-2 pr-2 pt-xl-1 pb-xl-1">
+                                        Free cancellation
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-end justify-content-md-between">
+                                <div class="d-flex flex-md-column flex-xl-row">
+                                    <div class="d-none d-md-block">
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span
+                                            class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 mr-xl-1 bold">star</span>
+                                    </div>
+                                    <p class="points minorColor fz12 text-right d-none d-md-block">3.0 (608)</p>
+                                </div>
+                                <div class="">
+                                    <p class="d-none d-md-block text-right opensans fz12 minorColor">per night</p>
+                                    <strike class="d-block text-right raleway minorColor fz14 lg-h6">TWD 1,280</strike>
+                                    <p class="text-right raleway bold xl-h4">TWD<span class="text-success">
+                                            790</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card flex-row openSans">
+                        <img src="./assets/images/11.jpg" class="card-img-top" alt="...">
+                        <div
+                            class="card-body pl-2 pr-2 pt-1 pb-1 p-md-2 p-xl-3 d-flex flex-column flex-md-row justify-content-between">
+                            <div class="d-xl-flex flex-xl-column justify-content-xl-between">
+                                <div class="">
+                                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                                        <div class="roomTittle">
+                                            <p class="text-success fz12">Din Daeng, Bangkok<span
+                                                    class="fz12 minorColor d-none d-xl-inline">・7 km from center</span>
+                                            </p>
+                                            <p class="mainColor bold mb-lg-3 xl-h4">DD Space</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="commentStars d-md-none">
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span
+                                                    class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 bold">star</span>
+                                            </div>
+                                            <p class="points minorColor fz12 text-right d-md-none">4.0 (138)</p>
+                                        </div>
+                                    </div>
+                                    <p class="minorColor fz14 bold">Standard Double Room</p>
+                                    <p class="minorColor fz12 mb-md-2 mb-lg-2">2 guests・1 bed (Queen size)</p>
+                                </div>
+                                <div class="d-none d-md-flex flex-md-column flex-xl-row align-items-start">
+
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-end justify-content-md-between">
+                                <div class="d-flex flex-md-column flex-xl-row">
+                                    <div class="d-none d-md-block">
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span
+                                            class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 mr-xl-1 bold">star</span>
+                                    </div>
+                                    <p class="points minorColor fz12 text-right d-none d-md-block">4.0 (138)</p>
+                                </div>
+                                <div class="">
+                                    <p class="d-none d-md-block text-right opensans fz12 minorColor">per night</p>
+                                    <strike class="d-block text-right raleway minorColor fz14 lg-h6">TWD 1,700</strike>
+                                    <p class="text-right raleway bold xl-h4">TWD<span class="text-success">
+                                            1,240</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card flex-row openSans">
+                        <img src="./assets/images/29.jpg" class="card-img-top" alt="...">
+                        <div
+                            class="card-body pl-2 pr-2 pt-1 pb-1 p-md-2 p-xl-3 d-flex flex-column flex-md-row justify-content-between">
+                            <div class="d-xl-flex flex-xl-column justify-content-xl-between">
+                                <div class="">
+                                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                                        <div class="roomTittle">
+                                            <p class="text-success fz12">Din Daeng, Bangkok<span
+                                                    class="fz12 minorColor d-none d-xl-inline">・7 km from center</span>
+                                            </p>
+                                            <p class="mainColor bold mb-lg-3 xl-h4">Dininn Hotel</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="commentStars d-md-none">
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                                <span
+                                                    class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 bold">star</span>
+                                            </div>
+                                            <p class="points minorColor fz12 text-right d-md-none">3.0 (446)</p>
+                                        </div>
+                                    </div>
+                                    <p class="minorColor fz14 bold">Deluxe Twin Room</p>
+                                    <p class="minorColor fz12 mb-md-2 mb-lg-2">2 guests・2 beds (2 twins)</p>
+                                </div>
+                                <div class="d-none d-md-flex flex-md-column flex-xl-row align-items-start">
+
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-end justify-content-md-between">
+                                <div class="d-flex flex-md-column flex-xl-row">
+                                    <div class="d-none d-md-block">
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span class="material-icons mb-0 fz18 md-h5 bold">star</span>
+                                        <span
+                                            class="material-icons mb-0 fz18 md-h5 mr-1 mr-md-0 mr-xl-1 bold">star</span>
+                                    </div>
+                                    <p class="points minorColor fz12 text-right d-none d-md-block">3.0 (446)</p>
+                                </div>
+                                <div class="">
+                                    <p class="d-none d-md-block text-right opensans fz12 minorColor">per night</p>
+                                    <p class="text-right raleway bold xl-h4">TWD 3,450</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
