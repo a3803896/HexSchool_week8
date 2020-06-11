@@ -90,6 +90,12 @@ p {
     }
 }
 
+.xl-h3 {
+    @include xl-width {
+        font-size: 2rem;
+    }
+}
+
 .md-h4 {
     @include md-width {
         font-size: 1.5rem !important;
@@ -226,6 +232,16 @@ $mainbg:#F1F0F8;
     }
 }
 
+.p-15-onlyphone {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @include sm-width {
+        padding-left: unset;
+        padding-right: unset;
+    }
+}
+
 //swiper
 .swiper-container {
     width: 100%;
@@ -279,4 +295,10 @@ sup {
 
 .border-right-white {
     border-right: 1px solid #fff;
+}
+
+.text-md-left {
+    @include md-width {
+        text-align: left;
+    }
 }
