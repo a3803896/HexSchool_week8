@@ -10896,6 +10896,12 @@ p {
   }
 }
 
+@media (min-width: 1200px) {
+  .xl-h3 {
+    font-size: 2rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md-h4 {
     font-size: 1.5rem !important;
@@ -11020,6 +11026,18 @@ p {
   }
 }
 
+.p-15-onlyphone {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 576px) {
+  .p-15-onlyphone {
+    padding-left: unset;
+    padding-right: unset;
+  }
+}
+
 .swiper-container {
   width: 100%;
   overflow: visible;
@@ -11066,6 +11084,12 @@ sup {
 
 .border-right-white {
   border-right: 1px solid #fff;
+}
+
+@media (min-width: 768px) {
+  .text-md-left {
+    text-align: left;
+  }
 }
 
 .swiperImg {
@@ -11224,30 +11248,30 @@ sup {
   }
 }
 
-.input-group input:first-child {
+.subscribe .input-group input:first-child {
   border-radius: 4px 0px 0px 4px;
   padding: 16px 0 18px 21px;
 }
 
 @media (min-width: 768px) {
-  .input-group input:first-child {
+  .subscribe .input-group input:first-child {
     width: 73.6%;
   }
 }
 
 @media (min-width: 992px) {
-  .input-group input:first-child {
+  .subscribe .input-group input:first-child {
     width: 72.1%;
   }
 }
 
-.input-group input:last-child {
+.subscribe .input-group input:last-child {
   border-radius: 0px 4px 4px 0px;
   padding: 17px 16px;
 }
 
 @media (min-width: 768px) {
-  .input-group input:last-child {
+  .subscribe .input-group input:last-child {
     padding: 17px 32px;
   }
 }
@@ -11412,6 +11436,76 @@ sup {
 
 .commentStars {
   line-height: 15px;
+}
+
+.mainContent .page-link,
+.mainContent nav .btn {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 992px) {
+  .mainContent .page-link,
+  .mainContent nav .btn {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+.lg-btn {
+  width: unset !important;
+  height: unset !important;
+  line-height: 23px;
+}
+
+.mainContentSubscribe input:first-child {
+  padding: 16px 0 18px 21px;
+}
+
+@media (min-width: 768px) {
+  .mainContentSubscribe input:first-child {
+    width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mainContentSubscribe input:first-child {
+    width: 379px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mainContentSubscribe input:first-child {
+    width: 484px;
+  }
+}
+
+.mainContentSubscribe input:last-child {
+  padding: 16px 17px;
+}
+
+@media (min-width: 768px) {
+  .mainContentSubscribe input:last-child {
+    width: 150px;
+  }
+}
+
+.loginBg {
+  height: 100vh;
+  background: url("../images/20.jpg") center no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  height: 56px;
+}
+
+.login input[type="checkbox"] {
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=all.css.map */
