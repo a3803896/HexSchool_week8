@@ -10982,6 +10982,12 @@ p {
   background: #F1F0F8;
 }
 
+@media (min-width: 992px) {
+  .bg-lg-black {
+    background: #000000DE;
+  }
+}
+
 @media (min-width: 1200px) {
   .ml-xl-6 {
     margin-left: 4rem;
@@ -11506,6 +11512,11 @@ sup {
 
 .login input[type="checkbox"] {
   margin-bottom: 2rem;
+}
+
+.absolute-bottom-24 {
+  position: absolute;
+  bottom: 24px;
 }
 
 /*# sourceMappingURL=all.css.map */
