@@ -188,6 +188,12 @@ $mainbg:#F1F0F8;
     background: $mainbg;
 }
 
+.bg-lg-black {
+    @include lg-width {
+        background: $mainColor;
+    }
+}
+
 //margin
 .ml-xl-6 {
     @include xl-width {
