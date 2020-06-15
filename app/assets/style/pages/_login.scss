@@ -8,6 +8,7 @@
 }
 
 .login {
+    padding-top: 24px;
 
     input[type="email"],
     input[type="password"] {
@@ -16,6 +17,10 @@
 
     input[type="checkbox"] {
         margin-bottom: 2rem;
+    }
+
+    @include lg-width {
+        padding-top: 105px;
     }
 }
 

@@ -90,6 +90,12 @@ p {
     }
 }
 
+.fz-lg-3 {
+    @include lg-width {
+        font-size: 3rem !important;
+    }
+}
+
 .xl-h3 {
     @include xl-width {
         font-size: 2rem;
@@ -180,6 +186,10 @@ $mainbg:#F1F0F8;
     @include md-width {
         width: 50% !important;
     }
+}
+
+.w-90 {
+    width: 90% !important;
 }
 
 //bgckground
