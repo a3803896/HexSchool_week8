@@ -136,17 +136,38 @@
                 <div class="sidebar pt-3">
                     <h2 class="raleway mb-2 mb-md-4  bold">Bangkok<sup class="text-success">3,240</sup></h2>
                     <div class="d-flex d-md-none">
-                        <button class="btn btn-light d-flex justify-content-center align-items-center p-0 w-50">
+                        <button id="filterBtn"
+                            class="btn btn-light d-flex justify-content-center align-items-center p-0 w-50">
                             <span class="material-icons mr-2"> filter_list </span>
                             <p class="openSans bold fz14">FILTER</p>
                         </button>
-                        <button class="btn btn-light d-flex justify-content-center align-items-center p-0 w-50">
-                            <span class="material-icons mr-2"> sort </span>
-                            <p class="openSans bold fz14">SORT</p>
-                        </button>
+                        <div class="dropDown p-0 w-50">
+                            <button id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false"
+                                class="btn btn-light d-flex justify-content-center align-items-center w-100">
+                                <span class="material-icons mr-2"> sort </span>
+                                <p class="openSans bold fz14">SORT</p>
+                            </button>
+                            <div class="dropdown-menu mainBg p-3 w-90" aria-labelledby="dropdownMenuButton">
+                                <ul class="sort list-unstyled openSans bold">
+                                    <li class="mb-3"><a href="#" class="text-success">Recommended</a></li>
+                                    <li class="mb-3"><a href="#" class="mainColor">Lowest Price</a></li>
+                                    <li class="mb-3"><a href="#" class="mainColor">Best value</a></li>
+                                    <li><a href="#" class="mainColor">Distance to City Center</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="filterOptions mainBg openSans p-4 d-none d-md-block">
-                        <form class="mb-5" action="">
+                    <div class="filterOptions mainBg openSans pt-4 pb-4 d-none d-md-block">
+                        <div class="d-flex d-md-none justify-content-between bg-white pl-4 p-3 mb-4">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <span class="material-icons mr-2"> filter_list </span>
+                                <p class="openSans bold fz14">FILTER</p>
+                            </div>
+                            <span class="material-icons filterClear"> clear </span>
+                        </div>
+                        <form class="mb-5 pl-4 pr-4" action="">
                             <p class="bold mb-3">Deals</p>
                             <div class="form-group form-check mb-2 d-flex">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -165,7 +186,7 @@
                             </div>
                         </form>
 
-                        <form class="mb-5" action="">
+                        <form class="mb-5 pl-4 pr-4" action="">
                             <p class="bold mb-3">Popular filter</p>
                             <div class="form-group form-check mb-2 d-flex">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -184,9 +205,23 @@
                             </div>
                         </form>
 
-                        <form class="mb-5" action="">
+                        <form class="mb-5 pl-4 pr-4" action="">
                             <p class="bold mb-3">Budget</p>
-                            <input class="mb-3 w-100" value="" type="range">
+                            <!-- <input class="mb-3 w-100" value="" type="range"> -->
+
+                            <div class="middle mb-3">
+                                <div class="multi-range-slider">
+                                    <input type="range" id="input-left" min="0" max="100" value="25">
+                                    <input type="range" id="input-right" min="0" max="100" value="75">
+                                    <div class="slider">
+                                        <div class="track"></div>
+                                        <div class="range"></div>
+                                        <div class="thumb left"></div>
+                                        <div class="thumb right"></div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div
                                 class="bg-white bg-lg-mainBg d-flex justify-content-between justify-content-lg-center p-2 p-lg-0">
                                 <div class="min bg-white p-lg-2 mr-2">
@@ -202,7 +237,7 @@
                             </div>
                         </form>
 
-                        <form class="mb-5" action="">
+                        <form class="mb-5 pl-4 pr-4" action="">
                             <p class="bold mb-3">Rating</p>
                             <div class="form-group form-check mb-2">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -257,7 +292,7 @@
                             </div>
                         </form>
 
-                        <form class="" action="">
+                        <form class="pl-4 pr-4" action="">
                             <p class="bold mb-3">Stay Type</p>
                             <div class="form-group form-check mb-2 d-flex">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
